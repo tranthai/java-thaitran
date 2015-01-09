@@ -1,0 +1,17 @@
+b1: Thêm ppa vào hệ thống:
+#sudo add-apt-repository ppa:webupd8team/java
+#sudo apt-get update
+#sudo apt-get install oracle-jdk7-installer
+
+b2: Enable jdk
+#update-alternatives --display java
+b3:  kiểm tra version
+#java -version
+b4: kiểm tra javac version
+#javac -version
+b5: thêm JAVA-HOME vào biến môi trường
+#sudo gedit /etc/environment
+JAVA_HOME=/usr/liv/jvm/java-7-oracle
+
+Uninstall jdk
+#sudo apt-get remove oracle-jdk7-installer
